@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo|Lato|Muli');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes|Tangerine');
+
+/* global */
+body {
+    font: 15px/1.5 'Lato', 'Heebo', 'Muli', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    /* list-style: none; */
+}
+
+/* header */
+header {
+    background: #bc3c56;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #6d6466 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #title {
+    float: left;
+}
+
+header #title h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 5px;
+}
+#tagline {
+    font-family: 'Dancing Script', 'Great Vibes', 'Tangerine', cursive;
+}
+
